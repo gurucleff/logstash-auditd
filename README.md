@@ -13,6 +13,7 @@ In order to get the events in /etc/audit/audit.rules we need to ensure that the 
 ```
 
 The filters are in the following order of record types processing groups
+```
 DAEMON_START
 LOGIN
 USER_LOGIN
@@ -20,5 +21,6 @@ EXECVE
 SYSCALL
 CRED_ACQ USER_CMD USER_START USER_ACCT USER_END
 CWD PATH BPRM_FCAPS (pretty generic, probably will match everything else)
+```
 
 Enjoy!
